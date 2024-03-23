@@ -1,3 +1,4 @@
+local alda = require("mhMac.plugins.alda")
 local cloak = require("mhMac.plugins.cloak")
 local colors = require("mhMac.plugins.colors")
 local copilot_chat = require("mhMac.plugins.copilot_chat")
@@ -5,6 +6,7 @@ local emmet = require("mhMac.plugins.emmet")
 local eval = require("mhMac.plugins.eval")
 local fugitive = require("mhMac.plugins.fugitive")
 local harpoon = require("mhMac.plugins.harpoon")
+local hurl = require("mhMac.plugins.hurl")
 local lsp = require("mhMac.plugins.lsp")
 local localPlugins = require("mhMac.plugins.local")
 local luaLine = require("mhMac.plugins.lualine")
@@ -22,12 +24,14 @@ local undotree = require("mhMac.plugins.undotree")
 local whichkey = require("mhMac.plugins.which")
 local zen = require("mhMac.plugins.zenmode")
 return {
+    alda,
     cloak,
     colors,
     copilot_chat,
     eval,
     fugitive,
     harpoon,
+    hurl,
     nvimIcons,
     localPlugins,
     lsp,

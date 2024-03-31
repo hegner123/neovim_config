@@ -1,8 +1,10 @@
 local alda = require("mhMac.plugins.alda")
+local cellular = require("mhMac.plugins.cellular_automation")
 local cloak = require("mhMac.plugins.cloak")
 local colors = require("mhMac.plugins.colors")
 local copilot = require("mhMac.plugins.copilot")
 local copilot_chat = require("mhMac.plugins.copilot_chat")
+local editorconfig = require("mhMac.plugins.editor_config")
 local emmet = require("mhMac.plugins.emmet")
 local eval = require("mhMac.plugins.eval")
 local fugitive = require("mhMac.plugins.fugitive")
@@ -26,10 +28,12 @@ local whichkey = require("mhMac.plugins.which")
 local zen = require("mhMac.plugins.zenmode")
 return {
     alda,
+    cellular,
     cloak,
     colors,
     copilot,
     copilot_chat,
+    editorconfig,
     eval,
     fugitive,
     harpoon,
@@ -51,6 +55,4 @@ return {
     undotree,
     whichkey,
     zen,
-    "eandrju/cellular-automaton.nvim",
-    "gpanders/editorconfig.nvim",
 }

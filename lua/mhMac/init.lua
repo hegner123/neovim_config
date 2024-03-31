@@ -18,3 +18,5 @@ require("lazy").setup(plugins)
 require 'nvim-web-devicons'.get_icons()
 
 require 'lspconfig'.pyright.setup {}
+vim.g["copilot#enabled"] = 0
+

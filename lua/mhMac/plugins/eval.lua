@@ -11,9 +11,12 @@ return {
                     },
                     javascript = {
                         cmd = "node"
-                    }}
-            }
-            )
+                    },
+                    go = {
+                        cmd = "air"
+                    }
+                },
+            })
         end
     }
 }

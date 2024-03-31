@@ -1,6 +1,7 @@
 local alda = require("mhMac.plugins.alda")
 local cloak = require("mhMac.plugins.cloak")
 local colors = require("mhMac.plugins.colors")
+local copilot = require("mhMac.plugins.copilot")
 local copilot_chat = require("mhMac.plugins.copilot_chat")
 local emmet = require("mhMac.plugins.emmet")
 local eval = require("mhMac.plugins.eval")
@@ -27,6 +28,7 @@ return {
     alda,
     cloak,
     colors,
+    copilot,
     copilot_chat,
     eval,
     fugitive,
@@ -49,7 +51,6 @@ return {
     undotree,
     whichkey,
     zen,
-    "github/copilot.vim",
     "eandrju/cellular-automaton.nvim",
     "gpanders/editorconfig.nvim",
 }
